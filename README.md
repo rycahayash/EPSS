@@ -1,3 +1,7 @@
+# SOP PENYEBARLUASAN
+
+## Diagram versi 1
+
 ```mermaid
 flowchart TD
     subgraph WALIDATA
@@ -36,7 +40,7 @@ flowchart TD
     D10 -->|Laporan Penyebarluasan| D11
 ```
 
-# Diagram Swimlane
+## Diagram versi 2
 
 ```mermaid
 %% Diagram Swimlane Vertikal (Top to Bottom)
@@ -70,6 +74,9 @@ flowchart TD
     V8 -- "Disetujui" --> O9 --> O10 --> W11 --> End((12. Selesai))
     V8 -- "Perlu Revisi" --> O7
 ```
+
+## Diagram versi 3
+
 ```mermaid
 %% Diagram Swimlane - Walidata di kiri
 flowchart LR
